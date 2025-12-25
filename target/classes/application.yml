@@ -1,0 +1,22 @@
+spring:
+ datasource: 
+    url : jdbc:postgresql://localhost:5432/springjwtauth1db
+    username : postgres
+    password : 123456
+    drive-class-name: org.postgresql.Driver
+ jpa: 
+  hibernate:
+   ddl-auto: update
+  shsow-sql: true
+  properties:
+   hibernate: 
+    format sql: true
+    dialect: org.hibernate.dialect.PostgreSQLDialect    
+
+server :
+ port : 8082
+
+jwt :
+ secret: "GNUZLEQAWAOKIPIHOFUSSBPCMRJLBABJXCQAPATSIPHGZLWIIG"
+ expiration : 86400000
+ refresh-expiration : 172800000
