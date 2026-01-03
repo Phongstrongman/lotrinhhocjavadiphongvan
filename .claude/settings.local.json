@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(git --version)",
-      "Bash(where git:*)"
+      "Bash(where git:*)",
+      "Bash(gh auth status:*)",
+      "Bash(winget install:*)",
+      "Bash(mvn clean compile:*)",
+      "Bash(del \"d:\\\\spring-jwt-auth-1\\\\src\\\\main\\\\java\\\\com\\\\studeyjava\\\\springjwtauth1\\\\service\\\\jwtService.java\")",
+      "Bash(rm:*)",
+      "Bash(git mv:*)"
     ]
   }
 }
